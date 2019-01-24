@@ -61,20 +61,11 @@ body {
   margin: 0;
 }
 
-img,
-svg {
-  box-sizing: border-box;
-  max-width: 100%;
-  height: auto;
-}
-
 :focus {
-  outline-color: currentColor;
-  outline-style: dotted;
+  outline-color: Black;
+  outline-style: groove;
   outline-width: .25rem;
 }
-
-[hidden] { display: none }
 
 .just-a-dream {
   box-sizing: border-box;
@@ -97,6 +88,11 @@ svg {
   padding: 2rem;
   padding-top: 1rem;
   margin: 0 0 0 1rem;
+}
+
+.very-padded {
+  box-sizing: border-box;
+  padding: 2rem;
 }
 
 .whatever-you-like {
@@ -123,4 +119,30 @@ svg {
   font-weight: 700;
   padding: .5rem;
   margin-bottom: 1rem;
+}
+
+.rack-em-up {
+  padding: 2rem;
+  font-size: 5em;
+  display: block;
+}
+
+.take-a-trip {
+  font-size: 2rem;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+.parachute {
+  padding: 1rem 2rem;
+  margin: 0;
+  max-width: 15em;
+}
+
+.moment-ago {
+  padding-bottom: 2rem;
+}
+
+[hidden] {
+  display: none;
 }
