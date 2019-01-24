@@ -43,7 +43,12 @@
 
 /* dubz */
 
-::selection { background: #bae4ea; color: black }
+@supports (--custom: vibe) {
+  ::selection {
+    background: Black;
+    color: var(--tape-hex, Gold);
+  }
+}
 
 .roots {
   font-family: Arial, sans-serif;
