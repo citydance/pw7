@@ -98,3 +98,20 @@ svg {
   padding-top: 1rem;
   margin: 0 0 0 1rem;
 }
+
+.whatever-you-like {
+  overflow-wrap: break-word;
+  text-transform: lowercase;
+  font-weight: 400;
+  font-size: 5rem;
+  line-height: 1;
+  margin: 0;
+}
+
+.you-know-my-name {
+  font-size: 5rem;
+}
+
+.up-so-high {
+  padding: 2rem;
+}
