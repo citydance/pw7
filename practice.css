@@ -1,0 +1,107 @@
+/* https://s9a.github.io/bae/ */
+.bae-clean:not(.bae-unclean),
+.bae-clean :not(.bae-unclean){background:transparent;color:inherit}
+.bae-flat:not(.bae-unflat),
+.bae-flat :not(.bae-unflat){border-color:transparent}
+.bae-warm{color:#415!important;background:#bae!important}
+.bae-cool{color:#bae!important;background:#415!important}
+.bae-dawn{color:#510!important;background:#bae!important}
+.bae-dusk{color:#bae!important;background:#510!important}
+.bae-vine{color:#707!important;background:#4ea!important}
+.bae-vein{color:#4ea!important;background:#707!important}
+.bae-swag{color:#925!important;background:#bff!important}
+.bae-swab{color:#bff!important;background:#925!important}
+.bae-gold{color:#707!important;background:gold!important}
+.bae-rush{color:gold!important;background:#707!important}
+
+/* https://github.com/s9a/tape/releases/tag/v0.2.0 */
+:root {
+  --tape-white: #f5f5f5;
+  --tape-black: #090909;
+  --tape-pink: #fbbfff;
+  --tape-yellow: #eee833;
+  --tape-blue: #11dff1;
+  --tape-green: #44f477;}
+.tape-white { --tape-hex: var(--tape-white) }
+.tape-blue { --tape-hex: var(--tape-blue) }
+.tape-pink { --tape-hex: var(--tape-pink) }
+.tape-green { --tape-hex: var(--tape-green) }
+.tape-yellow { --tape-hex: var(--tape-yellow) }
+.tape-clean:not(.tape-unclean),
+.tape-clean :not(.tape-unclean) {
+  background: transparent;
+  color: inherit;}
+.tape-flat:not(.tape-unflat),
+.tape-flat :not(.tape-unflat) {
+  border-color: transparent;}
+.tape-blue,.tape-pink,.tape-green,.tape-yellow,.tape-white {
+  background: var(--tape-hex) !important;
+  color: var(--tape-black) !important;}
+.tape-black {
+  background: var(--tape-black) !important;
+  color: var(--tape-hex, var(--tape-white)) !important;}
+
+
+/* https://github.com/s9a/cake/releases/tag/v0.1.0 */
+.cake-dish { background: hsl(40,80%,95%) !important; color: hsl(0,0%,20%) !important }
+.cake-vday { background: hsl(330,99%,75%) !important; color: hsl(0,0%,10%) !important }
+.cake-bday { background: hsl(190,60%,70%) !important; color: hsl(240,100%,25%) !important }
+.cake-plum { background: hsl(220,60%,70%) !important; color: hsl(250,100%,1%) !important }
+.cake-lime { background: hsl(150,80%,50%) !important; color: hsl(90,50%,8%) !important }
+.cake-lemon { background: hsl(50,99%,60%) !important; color: hsl(90,50%,8%) !important }
+.cake-peach { background: hsl(25,100%,51%) !important; color: hsl(0,0%,1%) !important }
+.cake-cherry { background: hsl(0,100%,61%) !important; color: hsl(0,0%,1%) !important }
+.cake-clean:not(.cake-unclean),.cake-clean :not(.cake-unclean){color:inherit;background:inherit}
+.cake-flat:not(.cake-unflat),.cake-flat :not(.cake-unflat) {border-color:transparent}
+
+/* dubz */
+
+::selection { background: #bae4ea; color: black }
+
+.roots {
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+}
+
+body {
+  font-size: 1.25em;
+  line-height: 1.5;
+  margin: 0;
+}
+
+img,
+svg {
+  box-sizing: border-box;
+  max-width: 100%;
+  height: auto;
+}
+
+:focus {
+  outline-color: currentColor;
+  outline-style: dotted;
+  outline-width: .25rem;
+}
+
+[hidden] { display: none }
+
+.just-a-dream {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.vividly-defined {
+  box-sizing: border-box;
+  font-size: 2rem;
+  padding: 2rem;
+  padding-bottom: 1rem;
+  margin: 0;
+}
+
+.very-lucid {
+  box-sizing: border-box;
+  font-size: 1.3333rem;
+  padding: 2rem;
+  padding-top: 1rem;
+  margin: 0 0 0 1rem;
+}
