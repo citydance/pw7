@@ -147,6 +147,10 @@ body {
   padding-bottom: 2rem;
 }
 
+[data-hash$="*"] { overflow: hidden }
+[data-hash$="*"] > .full-out:not(:target) { visibility: hidden }
+[data-hash$="*"] .full-out:target .full-in { min-height: 100vh }
+
 [hidden] {
   display: none;
 }
